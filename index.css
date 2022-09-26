@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+/* 背景颜色和图片 */
+.main img {
+    position: absolute;
+    width: 800px;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(230, 178, 254);
+}
+
+/* 登陆注册提示框 */
+.body .Register {
+    position: relative;
+    left: 908px;
+    top: 256px;
+    font-size: 15px;
+    display: block;
+    width: 150px;
+    /* background-color: rgb(172, 157, 157); */
+}
+
+.body .Register>span {
+    font-weight: 700;
+    color: rgb(154, 154, 154);
+}
+
+.body .Register span:nth-of-type(1) {
+    color: rgb(125, 105, 178);
+}
+
+.register {
+    display: none;
+    color: rgb(125, 105, 178);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.register span {
+    display: block;
+    margin-top: 12px;
+}
+
+.register input {
+    padding: 4px;
+    width: 150px;
+    border: none;
+    border-bottom: 2px solid rgb(202, 202, 202);
+    outline: none;
+    font-size: 12px;
+    background-color: transparent;
+    /*输入框背景色透明*/
+    color: #7c5e72;
+    font-weight: 700;
+}
+
+.login {
+    display: block;
+    color: rgb(125, 105, 178);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.login span {
+    display: block;
+    margin-top: 12px;
+}
+
+.login input {
+    padding: 4px;
+    width: 150px;
+    border: none;
+    border-bottom: 2px solid rgb(202, 202, 202);
+    outline: none;
+    font-size: 12px;
+    background-color: transparent;
+    /*输入框背景色透明*/
+    color: #666666;
+    font-weight: 700;
+
+}
+
+.login a {
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #7c5e72;
+}
+
+.submit {
+    position: absolute;
+    margin-top: 40px;
+    display: block;
+    background-color: rgb(179, 117, 207);
+    width: 150px;
+    height: 38px;
+    border-radius: 19px;
+}
+
+.submit a {
+    position: relative;
+    left: 62px;
+    top: 7px;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
